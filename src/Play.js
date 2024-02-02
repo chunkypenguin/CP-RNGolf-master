@@ -25,7 +25,7 @@ class Play extends Phaser.Scene {
         this.grass = this.add.image(0, 0, 'grass').setOrigin(0)
 
         // add cup
-        this.cup = this.physics.add.sprite(width / 2, height - height/ 5, 'cup')
+        this.cup = this.physics.add.sprite(width / 2, height/ 10, 'cup')
         this.cup.body.setCircle(this.cup.width / 4)
         this.cup.body.setOffset(this.cup.width / 4)
         this.cup.body.setImmovable(true)
